@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>annie</id>
+    <version>0.9.3</version>
+    <title>Annie</title>
+    <owners>Xinzhao Xu</owners>
+    <authors>Xinzhao Xu</authors>
+    <projectUrl>https://github.com/iawia002/annie</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/iawia002/annie@0.9.3/static/logo.png</iconUrl>
+    <licenseUrl>https://github.com/iawia002/annie/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <tags>video downloader multimedia ffmpeg go</tags>
+    <summary>Fast, simple and clean video downloader.</summary>
+    <description>Annie is a fast, simple and clean video downloader built with Go.
+
+Sites supported included bilibili.com, iqiyi.com, v.qq.com, vimeo.com, youku.com, youtube.com, to name a few.</description>
+    <releaseNotes>https://github.com/iawia002/annie/releases</releaseNotes>
+    <packageSourceUrl>https://github.com/zmwangx/chocolatey-annie</packageSourceUrl>
+    <dependencies>
+      <dependency id="ffmpeg" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+    <file src="legal\**" target="legal" />
+  </files>
+</package>
