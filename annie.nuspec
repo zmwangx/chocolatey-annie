@@ -19,7 +19,7 @@ Sites supported included bilibili.com, iqiyi.com, v.qq.com, vimeo.com, youku.com
     <releaseNotes>https://github.com/iawia002/annie/releases</releaseNotes>
     <packageSourceUrl>https://github.com/zmwangx/chocolatey-annie</packageSourceUrl>
     <dependencies>
-      <dependency id="ffmpeg" />
+      <dependency id="ffmpeg" version="2.8.0" />
     </dependencies>
   </metadata>
   <files>
