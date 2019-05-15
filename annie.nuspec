@@ -24,6 +24,5 @@ Sites supported included bilibili.com, iqiyi.com, v.qq.com, vimeo.com, youku.com
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
-    <file src="legal\**" target="legal" />
   </files>
 </package>
