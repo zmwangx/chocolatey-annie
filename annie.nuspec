@@ -3,12 +3,12 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>annie</id>
-    <version>0.9.3</version>
+    <version>0.9.4</version>
     <title>Annie</title>
     <owners>Zhiming Wang</owners>
     <authors>Xinzhao Xu</authors>
     <projectUrl>https://github.com/iawia002/annie</projectUrl>
-    <iconUrl>https://cdn.jsdelivr.net/gh/iawia002/annie@0.9.3/static/logo.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/iawia002/annie@0.9.4/static/logo.png</iconUrl>
     <licenseUrl>https://github.com/iawia002/annie/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <tags>video downloader multimedia ffmpeg go</tags>
