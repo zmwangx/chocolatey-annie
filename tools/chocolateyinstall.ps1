@@ -2,11 +2,11 @@
 
 $packageArgs = @{
   PackageName    = 'annie'
-  Url            = 'https://github.com/iawia002/annie/releases/download/0.10.1/annie_0.10.1_Windows_32-bit.zip'
-  Url64bit       = 'https://github.com/iawia002/annie/releases/download/0.10.1/annie_0.10.1_Windows_64-bit.zip'
-  Checksum       = '0f6af860cc38b0f00b11efbfe7dfb019b5aaa38006b2d2007eb9e8075cdf7f8c'
+  Url            = 'https://github.com/iawia002/annie/releases/download/0.10.2/annie_0.10.2_Windows_32-bit.zip'
+  Url64bit       = 'https://github.com/iawia002/annie/releases/download/0.10.2/annie_0.10.2_Windows_64-bit.zip'
+  Checksum       = '985ddf50ffc0cde78599606c43d82f593a5399c60566af998a7a589fc3bfcfc3'
   ChecksumType   = 'sha256'
-  Checksum64     = 'e28cc077f663bf4581bdab1714dcb39135b0449dd44029fdae1d8fa1394a3bf1'
+  Checksum64     = 'f01315fee2afb69f616ede541c9ad8ed48168cde0c57cf1b2d39eebb1a177336'
   ChecksumType64 = 'sha256'
   UnzipLocation  = "$(split-path -parent $MyInvocation.MyCommand.Definition)"
 }

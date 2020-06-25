@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>annie</id>
-    <version>0.10.1</version>
+    <version>0.10.2</version>
     <title>Annie</title>
     <owners>Zhiming Wang</owners>
     <authors>Xinzhao Xu</authors>
