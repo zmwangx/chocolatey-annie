@@ -59,7 +59,11 @@ def nuspec_repl(content: str, old_version: str, new_version: str) -> str:
 
 def install_script_repl(content: str, old_version: str, new_version: str) -> str:
     def get_url(version: str, arch: str) -> str:
-        return f"https://github.com/{REPO}/releases/download/v{version}/annie_{version}_{arch}-bit.zip"
+        return (
+            f"https://github.com/{REPO}/releases/download/v{version}/annie_{version}_{arch}-bit.zip"
+            if Version(version) >= Version("0.11")
+            else f"https://github.com/{REPO}/releases/download/{version}/annie_{version}_{arch}-bit.zip"
+        )
 
     def get_sha256(url: str):
         location = pathlib.Path(tempfile.gettempdir()) / os.path.basename(url)
